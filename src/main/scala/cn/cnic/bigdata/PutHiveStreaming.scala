@@ -1,7 +1,7 @@
 package cn.cnic.bigdata
 
-import cn.cnic.bigdatalab.utils.PropertyUtil
 import cn.piflow._
+import cn.piflow.util.PropertyUtil
 import org.apache.spark.sql.SparkSession
 class PutHiveStreaming(dataframeIn:String, database:String, table:String) extends Process{
 
